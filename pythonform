@@ -1,13 +1,26 @@
+#This is the copypasta for the python game.
 import time
 print("Welome to the game.")
 time.sleep(1)
-print("The one that no one wants to play.")
+print("When responding, match case to the option you choose.")
 time.sleep(1)
-print("But anyway...")
+print("You wake up.")
 time.sleep(1)
-print("You see two doors. The one on the left is black, the one on the right is white.")
-doorq1 = str(input("Which door do you take (Left, Right)? "))
-if doorq1 == "Left":
-  print("Interesting...")
-  
-  print("That's all for now.")
+print(
+    "You see two doors. The one on the left is black, the one on the right is white."
+)
+query = str(input("Which door do you take (Left, Right)? "))
+if query == "Left":
+    print("Interesting...")
+    time.sleep(1)
+    print(
+        "Past the door, there is a blinding light. Your eyes adjust, and you see a shining city. You walk through the door. You fall. You land on a large pad, and somehow, avoid death. You feel that you are able to stand."
+    )
+    str(input(" What do you do? (Stand, Wait)"))
+
+if query == "Right":
+    print("Interesting...")
+    time.sleep(1)
+    print("That's all for now.")
+if query != "Left" or query != "Right":
+    print("Non-option response. Please reset.")
