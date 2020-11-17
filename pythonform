@@ -1,0 +1,13 @@
+import time
+print("Welome to the game.")
+time.sleep(1)
+print("The one that no one wants to play.")
+time.sleep(1)
+print("But anyway...")
+time.sleep(1)
+print("You see two doors. The one on the left is black, the one on the right is white.")
+doorq1 = str(input("Which door do you take (Left, Right)? "))
+if doorq1 == "Left":
+  print("Interesting...")
+  
+  print("That's all for now.")
